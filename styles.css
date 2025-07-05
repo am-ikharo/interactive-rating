@@ -9,8 +9,8 @@ body {
 }
 
 .container {
-    width: 32%;
-    margin: 10% auto;
+    width: 420px;
+    margin: 150px auto;
     background-color: hsl(213, 19%, 18%);
     border-radius: 15px;
     box-sizing: border-box;
@@ -21,15 +21,16 @@ body {
     background-color: hsl(211, 19%, 26%);
     /* background-color: beige; */
     margin: 20px;
-    padding: 10px;
+    padding: 15px 20px;
     border-radius: 50%;
-    width: 40px;
+    width: 50px;
+    
 }
 
 .star img {
-    justify-content: center;
-    align-items: center;
-    padding: 2px 0px 0px 2px;
+    padding-top: 5px;
+    size: 15px;
+    
 }
 
 .question {
@@ -54,21 +55,56 @@ body {
 .rating-buttons {
     margin: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     box-sizing: border-box;
+   
 }
 
 .rating {
-    padding: 20px;
+    
+    padding: 15px 20px;
     box-sizing: border-box;
     background-color: hsl(211, 19%, 26%);
     border: none;
     border-radius: 48%;
     color: hsl(210, 2%, 60%);
+    font-size: large;
 }
 
 .rating:hover {
     background-color: hsl(25, 97%, 53%);
     color: black;
     cursor: pointer;
+}
+
+.submit-container {
+    margin: 20px;
+}
+
+.submit {
+    width: 100%;
+    margin: 15px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    color: black;
+    background-color: hsl(25, 97%, 53%);
+    letter-spacing: 3px;
+   
+}
+
+.submit:hover {
+    background-color: white;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 80%;
+        margin: 150px auto;
+        background-color: hsl(213, 19%, 18%);
+        border-radius: 15px;
+        box-sizing: border-box;
+        padding: 10px 10px;
+}
+
 }
