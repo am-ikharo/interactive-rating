@@ -31,3 +31,22 @@ body {
     align-items: center;
     padding: 1px 0px 0px 1px;
 }
+
+.question {
+    margin: 20px;
+}
+
+.question h2 {
+    color: hsl(0, 100%, 100%);
+    font-weight: 700;
+    padding: 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.question p {
+    color: hsl(210, 2%, 60%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size:medium;
+    line-height: 1.5em;
+}
