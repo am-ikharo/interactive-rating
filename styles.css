@@ -29,7 +29,7 @@ body {
 .star img {
     justify-content: center;
     align-items: center;
-    padding: 1px 0px 0px 1px;
+    padding: 2px 0px 0px 2px;
 }
 
 .question {
@@ -49,4 +49,26 @@ body {
     font-weight: 400;
     font-size:medium;
     line-height: 1.5em;
+}
+
+.rating-buttons {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.rating {
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: hsl(211, 19%, 26%);
+    border: none;
+    border-radius: 48%;
+    color: hsl(210, 2%, 60%);
+}
+
+.rating:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: black;
+    cursor: pointer;
 }
