@@ -99,10 +99,44 @@ body {
 
 /* thanks html styling */
 
-.img-container {
-    
+.thanks {
+    text-align: center;
 }
 
+.img-container {
+    width: 80%;
+    margin: 25px auto;
+    justify-content: center;
+}
+
+.img-container img {
+    /* width: 180px; */
+}
+
+.selected {
+    width: 45%;
+    background-color: hsl(211, 19%, 26%);
+    padding: 4px 5px;
+    margin: auto;
+    border-radius: 10px;
+    color: hsl(25, 97%, 53%);
+}
+
+.message {
+    width: 90%;
+    margin: 35px auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+.message h2 {
+    margin: 15px;
+}
+
+.message p {
+    color: hsl(210, 2%, 60%);
+}
 
 @media (max-width: 500px) {
     .container {
