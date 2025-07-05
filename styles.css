@@ -1,0 +1,27 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+    width: 32%;
+    margin: 10% auto;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+
+.star {
+    /* background-color: hsl(211, 19%, 21%); */
+    background-color: beige;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+}
