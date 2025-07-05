@@ -97,6 +97,13 @@ body {
     background-color: white;
 }
 
+/* thanks html styling */
+
+.img-container {
+    
+}
+
+
 @media (max-width: 500px) {
     .container {
         width: 80%;
