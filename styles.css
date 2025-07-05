@@ -18,10 +18,16 @@ body {
 }
 
 .star {
-    /* background-color: hsl(211, 19%, 21%); */
-    background-color: beige;
-    margin: 25px;
+    background-color: hsl(211, 19%, 26%);
+    /* background-color: beige; */
+    margin: 20px;
     padding: 10px;
     border-radius: 50%;
     width: 40px;
+}
+
+.star img {
+    justify-content: center;
+    align-items: center;
+    padding: 1px 0px 0px 1px;
 }
