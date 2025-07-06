@@ -7,7 +7,7 @@ getRating.forEach((currentItem, index) => {
     currentItem.dataset.rating = index +1;
     currentItem.addEventListener('click', (event) => {
         const currentRatingValue = event.target.dataset
-        getSelectedRatingValue = currentRatingValue
+        getSelectedRatingValue.textContent = currentRatingValue.rating
         
     })
 })
