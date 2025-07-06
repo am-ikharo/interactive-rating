@@ -10,7 +10,7 @@ body {
 
 .container {
     width: 420px;
-    margin: 150px auto;
+    margin: 100px auto;
     background-color: hsl(213, 19%, 18%);
     border-radius: 15px;
     box-sizing: border-box;
@@ -141,7 +141,7 @@ body {
 @media (max-width: 500px) {
     .container {
         width: 80%;
-        margin: 150px auto;
+        margin: 100px auto;
         background-color: hsl(213, 19%, 18%);
         border-radius: 15px;
         box-sizing: border-box;
