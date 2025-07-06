@@ -125,7 +125,7 @@ body {
 }
 
 .selected {
-    width: 45%;
+    width: 180px;
     background-color: hsl(211, 19%, 26%);
     padding: 4px 5px;
     margin: auto;
