@@ -77,6 +77,17 @@ body {
     cursor: pointer;
 }
 
+.rated {
+    background-color: hsl(25, 97%, 53%);
+    color: black;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 48%;
+    font-size: large;
+    
+}
+
 .submit-container {
     margin: 20px;
 }
@@ -120,6 +131,10 @@ body {
     margin: auto;
     border-radius: 10px;
     color: hsl(25, 97%, 53%);
+}
+
+.not {
+    display: none;
 }
 
 .message {
